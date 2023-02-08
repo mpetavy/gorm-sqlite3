@@ -3,6 +3,12 @@ module gorm-sqlite3
 go 1.18
 
 require (
+	github.com/glebarez/sqlite v1.6.0
+	github.com/mpetavy/common v1.5.27
+	gorm.io/gorm v1.24.5
+)
+
+require (
 	cloud.google.com/go v0.88.0 // indirect
 	github.com/beevik/etree v1.1.0 // indirect
 	github.com/creack/goselect v0.1.2 // indirect
@@ -12,7 +18,6 @@ require (
 	github.com/fatih/structtag v1.2.0 // indirect
 	github.com/gabriel-vasile/mimetype v1.3.1 // indirect
 	github.com/glebarez/go-sqlite v1.20.0 // indirect
-	github.com/glebarez/sqlite v1.6.0 // indirect
 	github.com/go-ini/ini v1.62.0 // indirect
 	github.com/go-sourcemap/sourcemap v2.1.3+incompatible // indirect
 	github.com/golang-jwt/jwt v3.2.2+incompatible // indirect
@@ -35,7 +40,6 @@ require (
 	github.com/labstack/gommon v0.3.1 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.16 // indirect
-	github.com/mpetavy/common v1.5.22 // indirect
 	github.com/paulrosania/go-charset v0.0.0-20190326053356-55c9d7a5834c // indirect
 	github.com/quasoft/memstore v0.0.0-20191010062613-2bce066d2b0b // indirect
 	github.com/remyoudompheng/bigfft v0.0.0-20200410134404-eec4a21b6bb0 // indirect
@@ -58,7 +62,6 @@ require (
 	google.golang.org/grpc v1.39.0 // indirect
 	google.golang.org/protobuf v1.27.1 // indirect
 	gopkg.in/sourcemap.v1 v1.0.5 // indirect
-	gorm.io/gorm v1.24.5 // indirect
 	modernc.org/libc v1.21.5 // indirect
 	modernc.org/mathutil v1.5.0 // indirect
 	modernc.org/memory v1.4.0 // indirect
